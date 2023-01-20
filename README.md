@@ -12,7 +12,7 @@ The Blockchain Financial report generator tool enables users to quickly and auto
   
   - Protocol overview (Quick project summary scrapped from CoinmarketCap, Resources links) 
   
-![alt text](https://github.com/Cybergen300/Blockchain-report-generator/pictures/Report_Screenshot.png)
+![alt text](https://github.com/Cybergen300/Blockchain-report-generator/tree/main/pictures/Report_Screenshot.png)
 
 
 ## How to use the blockchain report generator 
