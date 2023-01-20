@@ -7,7 +7,7 @@ Created on Wed Jan 18 11:06:43 2023
 """
 
 import os 
-path = "/Users/goudurix/Desktop/tutos_Data/Data_Scrapper/"
+path = "YOUR PATH"
 os.chdir(path)
 
 from function import * 
@@ -221,7 +221,7 @@ ax.yaxis.grid(True, color='#EEEEEE')
 ax.xaxis.grid(False)        
          
 fig.tight_layout()
-fig.savefig('/Users/goudurix/Desktop/tutos_Data/Data_scrapper/GoogleInterest.png')
+fig.savefig('YOUR PATH/GoogleInterest.png')
 
 
 #Get interest by region 
@@ -276,7 +276,7 @@ ch = 50
 pdf = FPDF(orientation = 'P', unit = 'mm', format = 'A4')
 pdf.add_page()
 pdf.set_text_color( 255, 255, 255)
-pdf.image('/Users/goudurix/Desktop/tutos_Data/Data_Scrapper/Diapositive1.jpeg', 0, 0, 210, 303)
+pdf.image('YOUR PATH/Diapositive1.jpeg', 0, 0, 210, 303)
 
 #Title 
 pdf.set_font('Helvetica', '', 34)
@@ -328,7 +328,7 @@ pdf.cell(w=53, h=10, txt= CEXvol, border=0, ln=0, align ='C')
 pdf.set_xy(x=143, y = 105)
 pdf.cell(w=53, h=10, txt= Low, border=0, ln=0, align ='C')
 
-pdf.image('/Users/goudurix/Desktop/tutos_Data/Data_Scrapper/GoogleInterest.png', x = 20, y = 142.2, w = 170, h = 63)
+pdf.image('YOUR PATH/GoogleInterest.png', x = 20, y = 142.2, w = 170, h = 63)
 
 
 #Regional Interest
@@ -385,7 +385,7 @@ pdf.link(x=88, y=262, w=110, h=5, link= link3 )
 
 #2nd page
 pdf.add_page()
-pdf.image('/Users/goudurix/Desktop/tutos_Data/Data_Scrapper/Diapositive2.jpeg', 0, 0, 210, 303)
+pdf.image('YOUR PATH/Diapositive2.jpeg', 0, 0, 210, 303)
 
 pdf.set_font('Helvetica', '', 12)
 
