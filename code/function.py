@@ -3,7 +3,7 @@
 """
 Created on Tue Jan 17 23:38:48 2023
 
-@author: goudurix
+@author: cybergenLab
 
 functions pdf generators
 """
