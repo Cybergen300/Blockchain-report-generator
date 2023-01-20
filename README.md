@@ -2,7 +2,7 @@
 
 ## What is the Blockchain Financial Report Generator ? 
 
-The Blockchain Financial report generator tool enables users to quickly and automatically spin-up basic PDF financial report on any blockchain projects available on CoinmarketCap. 
+The Blockchain Financial report generator tool enables users to quickly and automatically spin-up basic PDF financial report on any blockchain projects available on CoinmarketCap in order to easily get a first impression on it. 
 
 ### Overall Report Layout
 
@@ -14,21 +14,21 @@ The Blockchain Financial report generator tool enables users to quickly and auto
   
 ![alt text](https://github.com/Cybergen300/Blockchain-report-generator/blob/main/pictures/Report_Screenshot.png)
 
+![alt text](https://github.com/Cybergen300/Blockchain-report-generator/blob/main/pictures/Report_Screenshot2.png)
 
 ## How to use the blockchain report generator 
 
-Step 1:
+### Step 1:
 
 Download all files locally in the folder of your choice and replace the 'YOUR PATH' tag in main.py and function.py by your folder location.
-Step 2:
+
+### Step 2:
 
 Run the main.py file
 
-During this step, the script is going to download the latest data available in the CSSE Covid19 repo and preprocess it before saving it as an excel file called Dataset.xlsx
-Step3:
+Upon running the main.py script, you're going to be asked to specify in the console the project on which you want to generate a report. So type the project for example ethereum and hit enter. 
 
-Open the Covid19_Tracker tableau file and update the data source with your newly created DataSet.xlsx
-Step4:
+## Step3:
 
-Enjoy your Covid19 Tracker showcasing the current Covid19 pandemic situation as well as the current global vaccination status.
-Covid19 tracker dashboards
+Open your newly generated report in the pictures files and start learning about this new project 
+
