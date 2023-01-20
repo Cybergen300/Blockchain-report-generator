@@ -30,5 +30,5 @@ Upon running the main.py script, you're going to be asked to specify in the cons
 
 ## Step3:
 
-Open your newly generated report in the pictures files and start learning about this new project 
+Open your newly generated report in the pictures files and start learning about the project 
 
